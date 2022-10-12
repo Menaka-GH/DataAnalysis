@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Working with innerHTML</title>
+    <script language="javascript" type="text/javascript">
+        function changeContent()
+        {
+            document.getElementById('content').innerHTML = "<h3>See?  The content has changed!</h3>";
+        }
+    </script>
+</head>
+<body>
+    <div id="content">
+        <p>This paragraph will change when the document object's innerHTML property is accessed.</p>
+    </div>
+    <input type="button" value="Press Me!" onclick="changeContent()"/>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Events</title>
+     <script language="javascript" type="text/javascript">
+        function onButtonClick()
+        {
+            alert("You have successfully pressed the button!");
+        }
+        
+        function whenPageLoads()
+        {
+            alert("Welcome to my page");
+        }
+        
+    </script>
+</head>
+<body onload="whenPageLoads()">
+   
+    <input type="button" value="Press Me" onmouseover="onButtonClick()"/>
+</body>
+</html>
