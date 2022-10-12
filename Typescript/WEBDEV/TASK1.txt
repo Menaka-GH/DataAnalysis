@@ -1,0 +1,21 @@
+Task details -
+
+ Create a web page-1 - Create and Manage Sites.
+
+Develop a page to store Site information like Site name, address, city, country, state, zipcode. Show Country, state as a dropdown. Developer can use dummy api available on web
+
+ 
+
+On clicking Save button capture Site info. You can show that on a web page below in Grid. Grid needs to be a separate component.
+
+In Grid show Edit and Delete links on clicking Edit show that site info in top section. Clicking on Update button should update the site information.
+
+ 
+
+More Info:
+
+·        Use free controls, Angular Material, can use Angular 8 or 13 version.  
+
+·        Use dummy APIs to show data in grid. We will cover actual .net core api development once done with Angular development.
+
+·         Use Angular concepts
